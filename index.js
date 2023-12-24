@@ -111,6 +111,28 @@ copia.sort((a, b)=>{
 })
 console.log(copia)
 
+const persona1 = {
+    nombre: "joaquin",
+    apellido: "leal",
+    edad: 20
+}
+
+const persona2 = {
+    nombre: "aian",
+    apellido: "leal",
+    edad: 23
+}
+
+const persona3 = {
+    nombre: "daniel",
+    apellido: "beker",
+    edad: 38
+}
+ const arrayPersona = [persona1, persona2, persona3]
+console.log(" === Recorrer un objeto de raiz === ")
+ for(let i=0; i<arrayPersona.length; i++){
+    console.log(arrayPersona[i])
+ }
 
 
 
